@@ -9,6 +9,7 @@ E = '\033[1;31m'
 B = '\033[2;36m'
 G = '\033[1;32m'
 S = '\033[1;33m'
+
 a1 = '\x1b[1;31m'  # أحمر
 a2 = '\x1b[1;34m'  # أزرق
 a3 = '\x1b[1;32m'  # أخضر
@@ -20,7 +21,7 @@ a8 = '\x1b[1;30m'  # أسود
 a9 = '\x1b[1;37m'  # أبيض
 a10 = '\x1b[38;5;52m'  # بني
 a11 = '\x1b[38;5;8m'  # رمادي
-a12 = '\x1b[38;5;220m'  # ذهب
+a12 = '\x1b[38;5;220m'  # ذهبي
 a13 = '\x1b[38;5;7m'  # فضي
 a14 = '\x1b[38;5;153m'  # أزرق فاتح
 a15 = '\x1b[38;5;18m'  # أزرق داكن
@@ -133,7 +134,7 @@ from rich.progress import Progress,SpinnerColumn,BarColumn,TextColumn
 from rich.text import Text as tekz
 from datetime import datetime
 current_time = datetime.now()
-expiry_time = datetime.strptime('''2024-3-34 00:00:00.000''', '''%Y-%m-%d %H:%M:%S.%f''')
+expiry_time = datetime.strptime('''2024-3-30 00:00:00.000''', '''%Y-%m-%d %H:%M:%S.%f''')
 if current_time > expiry_time:
     print('خلصت المده المجانيه راسلني لتفعليه مره اخره\n@lIIHII')
     exit(0)
@@ -223,9 +224,6 @@ print('   ▄︻デ══━一💨 ')
 
 ID1 = input(' ا \x1b[38;5;117m{\x1b[1;32m𓅇 \x1b[38;5;199m}  I̙͓̞D̪͕͚ \x1b[1;38;5;117m જ⁀➴  \x1b[38;5;130m︎ ')
 
-token = '6328700769:AAHrNfIQKh-plN1qPIhoM63tSTSNDfHMPtw'
-print('\n')
-ID = '5825578407'
 
 os.system('clear')
 pretty.install()
